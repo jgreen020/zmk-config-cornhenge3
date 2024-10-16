@@ -18,7 +18,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE  &kp AMPS       &kp DOLLAR        &kp SQT    &kp LPAR          &kp RPAR             &kp N7  &kp N8  &kp N9  &kp PLUS  &kp MINUS  &trans
-&kp APOS   &kp PIPE       &kp PERCENT       &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp N4  &kp N5  &kp N6  &kp STAR  &kp SLASH  &trans
+&kp EXCL   &kp PIPE       &kp PERCENT       &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp N4  &kp N5  &kp N6  &kp STAR  &kp SLASH  &trans
 &trans     &kp LESS_THAN  &kp GREATER_THAN  &kp UNDER  &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp N1  &kp N2  &kp N3  &kp DOT   &kp N0     &kp EQUAL
                                             &trans     &trans            &trans               &trans  &trans  &trans
             >;
