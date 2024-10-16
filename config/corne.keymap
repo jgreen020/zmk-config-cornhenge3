@@ -8,37 +8,37 @@
 
         layer_0 {
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R     &kp T       &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB         &kp A  &kp S  &kp D      &kp F     &kp G       &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp RET
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B       &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                              &kp LCTRL  &kp LALT  &kp LGUI    &kp SPACE  &mo 1  &mo 2
+&none  &kp Q  &kp W  &kp E          &kp R         &kp T             &kp Y             &kp U       &kp I            &kp O    &kp P     &none
+&none  &kp A  &kp S  &kp D          &kp F         &kp G             &kp H             &kp J       &kp K            &kp L    &kp SEMI  &none
+&none  &kp Z  &kp X  &kp C          &kp V         &kp B             &kp N             &kp M       &kp COMMA        &kp DOT  &kp FSLH  &none
+                     &mt LCTRL ESC  &mt LALT TAB  &mt LGUI SPACE    &mt LSHIFT ENTER  &lt 1 BSLH  &lt 2 BACKSPACE
             >;
         };
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp AMPS       &kp DOLLAR        &kp SQT    &kp LPAR          &kp RPAR             &kp N7  &kp N8  &kp N9  &kp PLUS  &kp MINUS  &trans
-&kp EXCL   &kp PIPE       &kp PERCENT       &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp N4  &kp N5  &kp N6  &kp STAR  &kp SLASH  &trans
-&trans     &kp LESS_THAN  &kp GREATER_THAN  &kp UNDER  &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp N1  &kp N2  &kp N3  &kp DOT   &kp N0     &kp EQUAL
-                                            &trans     &trans            &trans               &trans  &trans  &trans
+&trans  &kp AMPS       &kp DOLLAR        &kp SQT         &kp LPAR          &kp RPAR             &kp N7  &kp N8  &kp N9    &kp PLUS  &kp MINUS  &trans
+&trans  &kp PIPE       &kp PERCENT       &kp CARET       &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp N4  &kp N5  &kp N6    &kp STAR  &kp SLASH  &trans
+&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDER       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp N1  &kp N2  &kp N3    &kp DOT   &kp EQUAL  &trans
+                                         &mt LCTRL EXCL  &mt LALT AT       &mt LGUI HASH        &trans  &trans  &lt 2 N0
             >;
         };
 
         layer_2 {
             bindings = <
-&kp TILDE  &none          &none     &kp UP    &none      &none     &kp AMPS    &kp STAR     &kp LPAR   &none  &kp UNDER  &kp DEL
-&kp DQT    &kp BACKSLASH  &kp LEFT  &kp DOWN  &kp RIGHT  &none     &kp DOLLAR  &kp PERCENT  &kp CARET  &none  &none      &trans
-&kp CAPS   &none          &none     &none     &none      &none     &kp EXCL    &kp AT       &kp HASH   &none  &kp RPAR   &trans
-                                    &trans    &trans     &trans    &trans      &trans       &trans
+&trans  &kp TILDE  &none     &kp UP    &none      &none     &kp AMPS    &kp STAR     &kp LPAR   &kp RPAR  &kp UNDER  &trans
+&trans  &none      &kp LEFT  &kp DOWN  &kp RIGHT  &none     &kp DOLLAR  &kp PERCENT  &kp CARET  &none     &kp DQT    &trans
+&trans  &none      &none     &none     &none      &none     &kp EXCL    &kp AT       &kp HASH   &none     &none      &trans
+                             &trans    &trans     &trans    &trans      &trans       &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6          &none  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS       &kp C_VOL_UP  &kp C_NEXT  &kp C_BRI_UP  &kp LC(LA(DEL))
-&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12         &none  &kp C_AC_SEARCH                         &kp C_VOL_DN  &kp C_PP    &kp C_BRI_DN  &kp PRINTSCREEN
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp C_MUTE    &kp C_PREV  &kp C_PWR     &kp RSHFT
-                                        &trans        &trans        &trans          &none  &trans                                  &trans
+&trans  &bt BT_NXT  &kp F1  &kp F2   &kp F3   &kp F4     &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS       &kp C_VOL_UP  &kp C_NEXT  &kp C_BRI_UP  &kp LA(LG(DELETE))  &trans
+&trans  &bt BT_CLR  &kp F5  &kp F6   &kp F7   &kp F8     &kp C_AC_SEARCH                         &kp C_VOL_DN  &kp C_PP    &kp C_BRI_DN  &kp PSCRN           &trans
+&trans  &bt BT_PRV  &kp F9  &kp F10  &kp F11  &kp F12    &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp C_MUTE    &kp C_PREV  &kp C_PWR     &bt BT_SEL 0        &trans
+                            &trans   &trans   &trans     &trans                                  &trans        &trans
             >;
         };
     };
