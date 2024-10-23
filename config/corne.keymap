@@ -26,7 +26,7 @@
 
         symbols_bluetooth {
             bindings = <
-&trans  &bt BT_CLR_ALL       &none         &none         &none         &none           &kp AMPS         &kp STAR     &kp LPAR   &kp PLUS           &kp EQUAL   &trans
+&trans  &bt BT_CLR_ALL       &none         &none         &none         &none           &kp AMPS         &kp STAR     &kp LPAR   &kp UNDER          &kp PLUS    &trans
 &trans  &bt BT_SEL 0         &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp DOLLAR       &kp PERCENT  &kp CARET  &kp DOUBLE_QUOTES  &kp PIPE    &trans
 &trans  &mt LSHIFT CAPSLOCK  &none         &bt BT_CLR    &bt BT_PRV    &bt BT_NXT      &kp EXCLAMATION  &kp AT       &kp HASH   &kp DOT            &kp RSHIFT  &trans
                                            &trans        &trans        &trans          &trans           &trans       &trans
